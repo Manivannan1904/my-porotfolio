@@ -29,7 +29,7 @@ const About = ({
           <div className="animated-card card-light">
             <div className="icon-header">
               <Briefcase size={36} />
-              <h3 className="card-title">Professional Summary</h3>
+              <h3 className="card-title">Professional Summary..</h3>
             </div>
             <p className="text-gray">
              I’m a front-end developer who enjoys building clean, responsive, and high-performing web applications. I focus on component-driven development and API integration to create seamless, user-friendly experiences. Working in Agile teams, I collaborate closely with designers and developers to turn ideas into efficient, practical solutions that look great and perform even better.
