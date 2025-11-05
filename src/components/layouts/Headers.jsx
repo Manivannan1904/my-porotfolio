@@ -1,7 +1,6 @@
 import React from "react";
 import { Download, Menu, X } from "lucide-react";
-import CV from '../../components/layouts/Manivannan_CV.pdf';
-
+import CV from '../../assets/Images/Manivannan_CV.pdf';
 
 const Headers = ({
   handleNavClick,
