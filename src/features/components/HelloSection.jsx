@@ -7,9 +7,12 @@ const HelloSection = ({ isVisible, handleNavClick }) => {
     // <div>
       <section id="home" className="hero-section">
         <div className={`hero-content ${isVisible.home ? 'visible' : ''}`}>
-      <div className="avatar">
-  <img src={Mani} alt="Avatar" />
+<div className="avatar-wrapper">
+  <div className="avatar">
+    <img src={Mani} alt="Avatar" />
+  </div>
 </div>
+
           <h1 className="title">Manivannan P</h1>
           <h2 className="subtitle">UI / Frontend Developer</h2>
           <p className="description">
