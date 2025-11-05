@@ -1,5 +1,7 @@
 import React from "react";
 import { Download, Menu, X } from "lucide-react";
+import CV from '../../components/layouts/Manivannan_CV.pdf';
+
 
 const Headers = ({
   handleNavClick,
@@ -28,13 +30,15 @@ const Headers = ({
                 {item}
               </button>
             ))}
-            <button 
-              className="download-btn"
-              onClick={() => alert('CV download will be available soon')}
-            >
+        
+               <a
+      href={CV}
+     download="Manivannan_CV.pdf"
+       className="download-btn"
+    >
               <Download size={18} />
               CV
-            </button>
+            </a>
           </div>
 
           <button 
