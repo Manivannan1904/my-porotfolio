@@ -32,7 +32,7 @@ const About = ({
               <h3 className="card-title">Professional Summary..</h3>
             </div>
             <p className="text-gray">
-             I’m a front-end developer who enjoys building clean, responsive, and high-performing web applications. I focus on component-driven development and API integration to create seamless, user-friendly experiences. Working in Agile teams, I collaborate closely with designers and developers to turn ideas into efficient, practical solutions that look great and perform even better.
+            Frontend Developer with 3.7 years of experience in building dynamic, responsive, and high-performance web applications using ReactJS and JavaScript. Skilled in developing scalable user interfaces, optimizing performance, and ensuring seamless user experiences. Strong collaborator with a focus on clean code practices, maintainability, and continuous learning in modern frontend frameworks and tools.
             </p>
           </div>
 

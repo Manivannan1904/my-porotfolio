@@ -17,8 +17,9 @@ import {
   Briefcase,
   GraduationCap,
 } from "lucide-react";
-const GIT = process.env.GIT
-const LINKEDIN = process.env.LINKEDIN
+const GIT = process.env.REACT_APP_GIT;
+const LINKEDIN = process.env.REACT_APP_LINKEDIN;
+
 const Connect = ({
     isVisible,
 }) => {
@@ -53,18 +54,29 @@ const Connect = ({
               </div>
 
               <div className="social-links">
-                <a href="https://github.com/manivannanp" target="_blank" rel="noopener noreferrer" className="social-link">
-                  <div className="social-icon">
-                    <Github size={32} />
-                  </div>
-                  <span style={{ fontSize: '0.875rem' }}>GitHub</span>
-                </a>
-                <a href="https://linkedin.com/in/manivannanp" target="_blank" rel="noopener noreferrer" className="social-link">
-                  <div className="social-icon">
-                    <Linkedin size={32} />
-                  </div>
-                  <span style={{ fontSize: '0.875rem' }}>LinkedIn</span>
-                </a>
+           
+                <a
+  href="https://github.com/Manivannan1904"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="social-link"
+>
+  <div className="social-icon">
+    <Github size={32} />
+  </div>
+  <span style={{ fontSize: '0.875rem' }}>GitHub</span>
+</a>
+               <a
+  href="https://linkedin.com/in/Manivannan19"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="social-link"
+>
+  <div className="social-icon">
+    <Linkedin size={32} />
+  </div>
+  <span style={{ fontSize: '0.875rem' }}>LinkedIn</span>
+</a>
               </div>
             </div>
           </div>

@@ -7,31 +7,17 @@ const experiences = [
     period: "12/2022 – 07/2025",
     location: "Chennai, India",
     achievements: [
-"Created dynamic admin panels for configuration and content management using React Table and custom CRUD components.",
+" Designed reusable custom hooks for API calls, debounced search, and global event management.",
+" Improved page load speed by 25% through lazy loading and Webpack code optimization.",
+" Implemented secure encryption and decryption workflow using Webpack.",
+" Optimized UI responsiveness using React Suspense and route-based chunking.",
+" Developed validation frameworks using React Hook Form and Yup.",
+" Integrated biometric authentication fallback (Face ID, fingerprint).",
+" Developed DR Scheduler Calendar with real-time sync and drag‑and‑drop.",
+" Created modular Axios interceptor‑based API architecture.",
+" Implemented skeleton loaders and shimmer effects to improve UX.",
+" Achieved 90%+ test coverage using Jest and React Testing Library.",
 
-"Collaborated with UI/UX designers in Figma, translating design systems into production-ready components.",
-
-"Designed reusable hook libraries for API calls, debounced searches, and global event management.",
-
-"Implemented advanced state management using Redux Toolkit and Context API, optimizing re-render cycles and reducing memory overhead.",
-
-"Developed reusable, atomic React components, reducing UI duplication by 40% and standardizing the design system across multiple applications.",
-
-"Built form validation frameworks with React Hook Form and Yup, enforcing complex business rules across multi-state forms.",
-
-"Integrated biometric verification fallback mechanisms (Face ID, fingerprint) for seamless cross-device authentication.",
-
-"Designed and developed a Scheduler Calendar (DR Calendar) with real-time slot availability, schedule synchronization, and drag-and-drop rescheduling.",
-
-"Architected modular API integration layers using Axios interceptors and service factories, enabling centralized error handling, retries, and token management.",
-
-    "Handled all edge cases in API communication — including timeouts, partial payloads, stale tokens, and race conditions — using async/await and promise cancellation.",
-
-"Migrated class-based components to functional components with hooks, reducing boilerplate and improving testability.",
-
-"Achieved 90%+ test coverage with Jest and React Testing Library, ensuring stable and predictable UI behavior across releases.",
-
-"Improved page load speed by 25% through code-splitting, lazy loading, and route-based chunk optimization using Webpack and React Suspense."
     ],
     gradient: "from-purple-500 to-pink-600",
   },
