@@ -16,7 +16,7 @@ const Headers = ({
        <nav className="nav">
         <div className="nav-container">
           <div className="logo" onClick={(e) => handleNavClick(e, 'home')}>
-            Manivannan P
+            Manivannan 
           </div>
           
           <div className="nav-menu">
