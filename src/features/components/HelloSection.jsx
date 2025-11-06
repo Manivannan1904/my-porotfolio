@@ -1,7 +1,8 @@
 import React from "react";
 import Button from "../../components/Buttons";
 import Mani from "../../assets/Images/mani.jpg"
-
+import { Download } from "lucide-react";
+import CV from '../../assets/Images/Manivannan_CV.pdf';
 const HelloSection = ({ isVisible, handleNavClick }) => {
   return (
     // <div>
@@ -31,6 +32,14 @@ const HelloSection = ({ isVisible, handleNavClick }) => {
             >
               View Experience
             </button>
+                   <a
+      href={CV}
+     download="Manivannan_CV.pdf"
+       className="secondary-btn-cv"
+    >
+              <Download size={18} />
+              CV
+            </a>
           </div>
         </div>
       </section>
